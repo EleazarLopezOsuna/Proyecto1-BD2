@@ -1,0 +1,6 @@
+USERID=principal
+DIRECTORY=ligas_export
+DUMPFILE=ligas_export.dmp
+LOGFILE=export.log
+TABLES=principal.LIGA,principal.JORNADA
+CONTENT=ALL
