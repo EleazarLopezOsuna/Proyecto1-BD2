@@ -1,0 +1,6 @@
+USERID=principal
+DIRECTORY=equipos_export
+DUMPFILE=equipos_export.dmp
+LOGFILE=export.log
+TABLES=principal.EQUIPO,principal.JUGADOR
+CONTENT=METADATA_ONLY
