@@ -1,0 +1,5 @@
+USERID=ligas
+DIRECTORY=ligas_import
+DUMPFILE=ligas_export.dmp
+LOGFILE=log_import.log
+REMAP_SCHEMA=principal:ligas
