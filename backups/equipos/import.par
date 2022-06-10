@@ -1,0 +1,5 @@
+USERID=equipos
+DIRECTORY=equipos_import
+DUMPFILE=equipos_export.dmp
+LOGFILE=log_import.log
+REMAP_SCHEMA=principal:equipos
