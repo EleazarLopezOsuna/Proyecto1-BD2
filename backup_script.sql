@@ -44,6 +44,7 @@ CREATE TABLE Partido(
 );
 
 --DML
+ALTER SESSION SET nls_date_format ='DD-MM-RR';
 INSERT INTO Liga VALUES (1,'Liga BBVA','01-07-2019','31-05-2019');
 
 INSERT INTO Equipo VALUES (1,'Villarreal');
@@ -124,7 +125,6 @@ INSERT INTO Jornada VALUES (9,9,1);
 INSERT INTO Jornada VALUES (10,10,1);
 INSERT INTO Jornada VALUES (11,11,1);
 
-ALTER SESSION SET nls_date_format ='DD-MM-RR';
 INSERT INTO Partido VALUES (1,'07-07-2019',2,3,1,2,3);
 INSERT INTO Partido VALUES (2,'09-07-2019',4,1,1,4,5);
 
